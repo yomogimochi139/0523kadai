@@ -1,5 +1,5 @@
 #pragma once
 
-int RandomNumber();
+int _RandomNumber();
 
-int InputNumber();
+int _InputNumber();

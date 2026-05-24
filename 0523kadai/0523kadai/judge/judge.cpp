@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <random>
+#include "input.h"
 #include "judge.h"
 
 JudgeResult CompareNumber(int RandomNumber, int InputNumber)
@@ -19,17 +22,17 @@ JudgeResult CompareNumber(int RandomNumber, int InputNumber)
 	}
 }
 
-void ShowResult(JudgeResult)
+void ShowResult(JudgeResult result)
 {
 	switch (result)
 	{
 	case JudgeResult::Bigger:
 		printf("‘å‚«‚¢\n");
 		break;
-	case JudgeResult::Smaller;
+	case JudgeResult::Smaller:
 		printf("¬‚³‚¢\n");
 		break;
-	case JudgeResult::
+	case JudgeResult::Correct:
 		printf("ƒQ[ƒ€ƒNƒŠƒA\n");
 		break;
 	}

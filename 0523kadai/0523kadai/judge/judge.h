@@ -3,7 +3,7 @@ enum class JudgeResult
 {
 	Bigger,
 	Smaller,
-	Collect
+	Correct
 };
 
 //@ƒ‰ƒ“ƒ_ƒ€‚É¶¬‚µ‚½”‚Æ“ü—Í‚µ‚½”‚ğ”äŠr
