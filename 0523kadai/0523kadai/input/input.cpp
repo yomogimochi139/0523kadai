@@ -1,6 +1,7 @@
 #include "input.h"
 #include <random>
 #include <stdio.h>
+//@0‚©‚ç9‚Ì’†‚©‚çƒ‰ƒ“ƒ_ƒ€‚È”’l‚ğ¶¬
 int RandomNumber()
 {
 	std::random_device rd;
